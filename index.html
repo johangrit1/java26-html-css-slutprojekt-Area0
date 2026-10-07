@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Massive Entertainment</title>
-    <!-- Jag skriver ner meta, link och script taggen, då jag inte har redan all innehåll så kommer jag att skriva det jag gissar/tomma rader hittills, ni kan ändra på det sen/Alexander -->
+    <title>Start - Massive Entertainment</title>
+         <!-- Jag skriver ner meta, link och script taggen, då jag inte har redan all innehåll så kommer jag att skriva det jag gissar/tomma rader hittills, ni kan ändra på det sen/Alexander -->
     <meta name="description" content="Massive Entertainment är en spelstudio från Malmö">
     <link rel="icon" href="images/logo.png" type="image">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="" defer></script>
     <script src="" defer></script>
+
 
 </head>
 <body>
@@ -24,14 +29,14 @@
             <!-- Jag vet återigen inte exakt vilket foto jag kommer att använda så jag låter den vara så så länge tills jag har hittat bilden/länk till bilden /Alexander -->
             <img src="images/logo.png" alt="" width="30" height="30"> Massive Entertainment
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#huvudmeny">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#huvudmeny" aria-controls="huvudmeny" aria-expanded="false" aria-label="Visa eller dölj menyn"></button>
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="huvudmeny">
             <ul class="navbar-nav ms-auto align-items-md-center gap-md-2">
              <li class="nav-item"><a class="nav-link active" href="index.html" >Startsida</a></li>
              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >Spel</a>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spel</a>
               <!-- Jag gör en dropdown meny där vi kommer ha 4 olika spel, skriver in namnen senare/Alexander-->
               <ul class="dropdown-menu">
                <li><a class="dropdown-item" href=""></a></li>
@@ -43,7 +48,7 @@
               <!-- Jag gör en nav där de som besöker hemsidan kan se spelbibliotek och kontakt samt en knapp för vilken tema man vill använda /Alexander -->
         <li class="nav-item"><a class="nav-link" href="tabell.html">Spelbibliotek</a></li>
             <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt och Hitta oss</a></li>
-            <li class="nav-item"><button id="tema-knapp" class="btn btn-outline-accent btn-sm" type="button">Ljust läge</button></li> 
+            <li class="nav-item"><button id="tema-knapp" class="btn btn-outline-accent btn-sm" type="button" aria-pressed="true">Ljust läge</button>Ljust läge</button></li> 
         </ul>
         </div>         
         </div>
@@ -56,8 +61,9 @@
 <!-- Footer med Namn och Copyright -->
 <footer class="site-footer">
 <div class="container">
-    <p>Massive Entertainment</p>
-    <p>© 2026 Massive Entertainment – a Ubisoft Studio. | © 2026 Ubisoft Entertainment. All Rights Reserved. Ubisoft, Massive and their logos are trademarks of Ubisoft Entertainment in the U.S and other countries.</p>
+<p class="mb-1"><strong>Massive Entertainment</strong> – Exempelgatan 1, 211 00 Malmö</p>
+      <p class="mb-1"><a href="mailto:hej@massive-entertainment.example">hej@massive-entertainment.example</a> · <a href="tel:+46400000000">040-00 00 00</a></p>
+      <p class="mb-0"><small>© 2026 Massive Entertainment – a Ubisoft Studio. | © 2026 Ubisoft Entertainment. All Rights Reserved. Ubisoft, Massive and their logos are trademarks of Ubisoft Entertainment in the U.S and other countries.</small></p>
 </div>
 </footer>
 </body>
