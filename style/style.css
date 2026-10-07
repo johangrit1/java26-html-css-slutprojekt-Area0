@@ -1,0 +1,35 @@
+
+/* Färg  */
+:root {
+    --accent: blue;
+    --card-bg: white;
+    --border: white;
+    --hero-text: white;
+    --card-shadow: rgba(#000045);
+    --radius: 10px;
+    --spacing: 40px;
+}
+
+@media (prefers-color-scheme: dark); {
+    :root{
+        color-scheme: dark;
+        --accent: lightblue;
+        --card-bg: black;
+        --border: rgb(48, 42, 42);
+        --card-shadow: rgb(29, 52, 73);
+
+        --bs-body-bg: black;
+        --bs-body-color: white;
+        --bs-emphasis-color: white;
+        --bs-emphasis-color-rbg: 255, 255, 255;
+        --bs-secondary-color: rgb(212, 198, 198);
+        --bs-border-color-translucent: rgb(110, 110, 110);
+        --bs-tertiary-bg: rgb(26, 26, 48);
+        --bs-link-color-rbg: 77, 191, 255;
+        --bs-link-hover-color-rbg: 128, 209, 255;
+    }
+}
+
+body {
+    line-height: 1.6;
+}
