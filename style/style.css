@@ -10,7 +10,7 @@
     --spacing: 40px;
 }
 
-@media (prefers-color-scheme: dark); {
+@media (prefers-color-scheme: dark) {
     :root{
         color-scheme: dark;
         --accent: lightblue;
