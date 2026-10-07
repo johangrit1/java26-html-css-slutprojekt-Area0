@@ -2,21 +2,21 @@
 /* Basfärg och färg för dark mode /Johan */
 :root {
     --accent: blue;
-    --card-bg: white;
-    --border: white;
+    --kort-bg: white;
+    --kant: white;
     --hero-text: white;
-    --card-shadow: rgba(#000045);
-    --radius: 10px;
-    --spacing: 40px;
+    --kort-skugga: rgba(#000045);
+    --rundning: 10px;
+    --luft: 40px;
 }
 
 @media (prefers-color-scheme: dark) {
     :root{
         color-scheme: dark;
         --accent: lightblue;
-        --card-bg: black;
-        --border: rgb(48, 42, 42);
-        --card-shadow: rgb(29, 52, 73);
+        --kort-bg: black;
+        --kant: rgb(48, 42, 42);
+        --kort-skugga: rgb(29, 52, 73);
 
         --bs-body-bg: black;
         --bs-body-color: white;
@@ -32,4 +32,10 @@
 
 body {
     line-height: 1.6;
+}
+section{
+    margin-bottom: var(--luft);
+}
+.card{
+    --bs-card-bg: var(--kort-bg);
 }
