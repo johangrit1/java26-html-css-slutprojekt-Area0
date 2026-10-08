@@ -5,7 +5,7 @@
     --kort-bg: white;
     --kant: white;
     --hero-text: white;
-    --kort-skugga: rgba(#000045);
+    --kort-skugga: rgb(7, 1, 85);
     --rundning: 10px;
     --luft: 40px;
 }
@@ -21,7 +21,7 @@
         --bs-body-bg: black;
         --bs-body-color: white;
         --bs-emphasis-color: white;
-        --bs-emphasis-color-rbg: 255, 255, 255;
+        --bs-emphasis-color-rgb: 255, 255, 255;
         --bs-secondary-color: rgb(212, 198, 198);
         --bs-border-color-translucent: rgb(110, 110, 110);
         --bs-tertiary-bg: rgb(26, 26, 48);
