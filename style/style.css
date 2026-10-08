@@ -70,3 +70,10 @@ nav{
 .sidfot p {
   margin-bottom: 0.25rem;
 }
+
+/* Tillgänglighet / Zelal */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+}
