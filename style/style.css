@@ -113,7 +113,7 @@ button:focus-visible {
 /* Jag lägger en bild med Hamburgarmenyn i mörkt läge eftersom att jag inte har hittat en annan lösning än /Alexander */
 @media (prefers-color-scheme: dark) {
     .site-nav{
-        --bs-navbar-toggler-icon-bg: url("images/hamburgare-vit.png");
+        --bs-navbar-toggler-icon-bg: url("images/hamburgare-vit.jpg");
     }
     .site-nav .navbar-toggler-icon { 
     width: 25px;
