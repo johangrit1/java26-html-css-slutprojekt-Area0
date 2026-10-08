@@ -40,9 +40,23 @@ section{
     --bs-card-bg: var(--kort-bg);
 }
 
+/* Menyn hoppar ner om man förminskar skärmen/ använder den på mobilen /Alexander */
 nav{
     flex-wrap: wrap;
     align-items: center;
 }
 
+/* Loggan och Massive entertainment texten /Alexander */
+.logga{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit;
+}
 
+/* Texten i menyn har inget understreck /Alexander */
+.meny a{
+    text-decoration: none;
+}
