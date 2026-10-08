@@ -60,3 +60,13 @@ nav{
 .meny a{
     text-decoration: none;
 }
+
+/* Css till footern / Norali */
+.sidfot {
+  border-top: 1px solid var(--kant);
+  padding-block: var(--luft);
+  text-align: center;
+}
+.sidfot p {
+  margin-bottom: 0.25rem;
+}
