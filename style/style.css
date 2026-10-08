@@ -77,3 +77,20 @@ button:focus-visible {
     outline: 3px solid var(--accent);
     outline-offset: 3px;
 }
+
+/* Hoppa till innehållet / Zelal */
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    background: var(--accent);
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
