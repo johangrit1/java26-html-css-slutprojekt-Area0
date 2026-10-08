@@ -39,3 +39,10 @@ section{
 .card{
     --bs-card-bg: var(--kort-bg);
 }
+
+nav{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
