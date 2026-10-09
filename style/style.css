@@ -136,3 +136,22 @@ button:focus-visible {
     max-width: 38rem;
     margin-inline: auto;
 }
+/* Basic animation för heron när man laddar in hemsidan / Johan */
+@keyframes glid-in {
+    0%   {opacity: 0;   transform: translateY(30px); }
+    50%  {opacity: 0.6; transform: translateY(10px); }
+    100% {opacity: 1;   transform: translateY(0);    }
+}
+.hero h1,
+.hero p {
+    animation: glid-in 1s ease-out both;
+}
+/* CSS så knappen lyfter lite när man håller musen på "Se spelen"  */
+.kop-knapp{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.kop-knapp:hover,
+.kop-knapp:focus-visible {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
