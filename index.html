@@ -24,38 +24,38 @@
  <!-- Jag har lagt till #innehåll /Zelal -->
     <a class="skip-link" href="#innehåll">Hoppa till innehållet</a>
 <!-- Här så fixar jag headern med länkar till spelen/de andra sidorna/Alexander -->
-    <header>
-        <nav class="navbar navbar-expand-md sticky-top site-nav">
-        <div class="container">
-        <a class="navbar-brand logga d-flex align-items-center gap-2" href="index.html">
-            <!-- Jag har hittat bilden som jag vill ha nu /Alexander -->
-            <img src="images/Massiveentertainmentlogo.jpg" alt="" width="100" height="100"> Massive Entertainment
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#huvudmeny" aria-controls="huvudmeny" aria-expanded="false" aria-label="Visa eller dölj menyn"></button>
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="huvudmeny">
-            <ul class="navbar-nav meny ms-auto align-items-md-center gap-md-2">
-             <li class="nav-item"><a class="nav-link active" href="index.html" >Startsida</a></li>
-             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spel</a>
-              <!-- Jag gör en dropdown meny där vi kommer ha 4 olika spel, Har Skrivit in namnen nu/Alexander-->
-              <ul class="dropdown-menu">
-               <li><a class="dropdown-item" href="March-of-giants.html">March of Giants</a></li>
-                <li><a class="dropdown-item" href="Splinter-cell.html">Tom Clancy's Splinter Cell</a></li>
-                <li><a class="dropdown-item" href="Ghost-recon.html">Tom Clancy's Ghost Recon</a></li>
-                <li><a class="dropdown-item" href="Thedivision2.html">Tom Clancy's The Division 2</a></li>
-              </ul>
-              </li>
-              <!-- Jag gör en nav där de som besöker hemsidan kan se spelbibliotek och kontakt samt en knapp för vilken tema man vill använda /Alexander -->
-        <li class="nav-item"><a class="nav-link" href="tabell.html">Spelbibliotek</a></li>
-            <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt och Hitta oss</a></li>
-            <li class="nav-item"><button id="tema-knapp" class="btn btn-outline-accent btn-sm" type="button" aria-pressed="true">Ljust läge</button></li> 
-        </ul>
-        </div>         
-        </div>
-        </nav>
-        </header>
+<header>
+<nav class="navbar navbar-expand-md sticky-top site-nav">
+<div class="container">
+<a class="navbar-brand logga d-flex align-items-center gap-2" href="index.html">
+     <!-- Jag har hittat bilden som jag vill ha nu /Alexander -->
+<img src="images/Massiveentertainmentlogo.jpg" alt="" width="100" height="100"> Massive Entertainment
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#huvudmeny" aria-controls="huvudmeny" aria-expanded="false" aria-label="Visa eller dölj menyn"></button>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="huvudmeny">
+  <ul class="navbar-nav meny ms-auto align-items-md-center gap-md-2">
+  <li class="nav-item"><a class="nav-link active" href="index.html" >Startsida</a></li>
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spel</a>
+    <!-- Jag gör en dropdown meny där vi kommer ha 4 olika spel, Har Skrivit in namnen nu/Alexander-->
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="March-of-giants.html">March of Giants</a></li>
+  <li><a class="dropdown-item" href="Splinter-cell.html">Tom Clancy's Splinter Cell</a></li>
+  <li><a class="dropdown-item" href="Ghost-recon.html">Tom Clancy's Ghost Recon</a></li>
+  <li><a class="dropdown-item" href="Thedivision2.html">Tom Clancy's The Division 2</a></li>
+  </ul>
+  </li>
+    <!-- Jag gör en nav där de som besöker hemsidan kan se spelbibliotek och kontakt samt en knapp för vilken tema man vill använda /Alexander -->
+<li class="nav-item"><a class="nav-link" href="tabell.html">Spelbibliotek</a></li>
+<li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt och Hitta oss</a></li>
+<li class="nav-item"><button id="tema-knapp" class="btn btn-outline-accent btn-sm" type="button" aria-pressed="true">Ljust läge</button></li> 
+</ul>
+</div>         
+</div>
+</nav>
+</header>
         <!-- Lagt till huvudrubrik/info /Johan -->
 <main id="innehåll" class="container">
     <section class="hero" aria-labelledby="hero-rubrik">
@@ -74,6 +74,41 @@
     <li><strong>2008</strong> blev en del av Ubisoft</li>
     <li><strong>Malmö</strong> är hemstaden</li>
     </ul>
+    </section>
+
+<!-- Jag har fixat en Spelgalleri /Alexander -->
+<section id="galleri" aria-labelledby="galleri-rubrik">
+    <h2 id="galleri-rubrik">Spelen</h2>
+    <div class="galleri">
+    <article class="card spelkort">
+    <img class="card-img-top" src="images/the-division-2.svg" alt="Platshållarbild för The Division 2" width="1280" height="720">
+    <div class="card-body">
+    <h3 class="card-title h5"><a href="the-division-2.html">The Division 2</a></h3>
+    <p class="card-text">Open world shooter i ett förstört Washington.</p>
+    </div>
+    </article>
+    <article class="card spelkort">
+    <img class="card-img-top" src="images/march-of-giants.svg" alt="Platshållarbild för March of Giants" width="1280" height="720">
+    <div class="card-body">
+    <h3 class="card-title h5"><a href="march-of-giants.html">March of Giants</a></h3>
+    <p class="card-text">MOBA där två lag om fyra möts i en förstörd stad.</p>
+    </div>
+    </article>
+    <article class="card spelkort">
+    <img class="card-img-top" src="images/ghost-recon.svg" alt="Platshållarbild för Ghost Recon Breakpoint" width="1280" height="720">
+    <div class="card-body">
+    <h3 class="card-title h5"><a href="ghost-recon.html">Ghost Recon Breakpoint</a></h3>
+    <p class="card-text">Open world-shooter på en privatägd ö.</p>
+    </div>
+    </article>
+    <article class="card spelkort">
+    <img class="card-img-top" src="images/splinter-cell.svg" alt="Platshållarbild för Splinter Cell: Blacklist" width="1280" height="720">
+    <div class="card-body">
+    <h3 class="card-title h5"><a href="splinter-cell.html">Splinter Cell: Blacklist</a></h3>
+    <p class="card-text">Actionspel där man smyger istället för att synas.</p>
+    </div>
+    </article>
+    </div>
     </section>
 
 <!-- Ändrat om footern litegrann, kommer även lägga till en CSS kod i style / Norali -->
