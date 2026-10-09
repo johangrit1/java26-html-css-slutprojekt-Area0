@@ -156,7 +156,7 @@ button:focus-visible {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
-/* Om oss, siffror i rad Flexbox /Alexander */
+/* Om oss, siffror i rad, Flexbox /Alexander */
 .siffror {
     display: flex;
     flex-wrap: wrap;
@@ -179,3 +179,21 @@ button:focus-visible {
     font-size: 2rem;
     color: var(--accent);
 }
+
+/* Jag har gjort en Galleri(Grid) /Alexander */
+.galleri{
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.spelkort .card-img-top {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.spelkort .card-title a {
+    text-decoration: none;
+}
+
+
