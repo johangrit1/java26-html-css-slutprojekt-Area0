@@ -210,3 +210,39 @@ button:focus-visible {
   max-width: 160px;
   margin: 0 auto 0.5rem;
 }
+
+/* Spelsidorna */
+.spel-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 21 / 9;
+    object-fit: contain;
+    border-radius: var(--rundning);
+    margin-bottom: var(--luft);
+}
+
+/* Mobil: text och faktaruta under varandra*/
+.spel-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--luft);
+}
+
+.fakta {
+    padding: 0;
+}
+
+.fakta li {
+    list-style: none;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--kant);
+}
+
+/* Desktop: text till vänster, faktaruta till höger*/
+@media (min-width: 1024px) {
+    .spel-layout {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
