@@ -211,7 +211,7 @@ button:focus-visible {
   margin: 0 auto 0.5rem;
 }
 
-/* Spelsidorna */
+/* Spelsidorna / Zelal */
 .spel-banner {
     display: block;
     width: 100%;
@@ -222,7 +222,7 @@ button:focus-visible {
     margin-bottom: var(--luft);
 }
 
-/* Mobil: text och faktaruta under varandra*/
+/* Mobil: text och faktaruta under varandra / Zelal*/
 .spel-layout {
     display: grid;
     grid-template-columns: 1fr;
@@ -239,7 +239,7 @@ button:focus-visible {
     border-bottom: 1px solid var(--kant);
 }
 
-/* Desktop: text till vänster, faktaruta till höger*/
+/* Desktop: text till vänster, faktaruta till höger / Zelal*/
 @media (min-width: 1024px) {
     .spel-layout {
         grid-template-columns: 2fr 1fr;
