@@ -156,3 +156,26 @@ button:focus-visible {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
+/* Om oss, siffror i rad Flexbox /Alexander */
+.siffror {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.siffror li {
+    flex: 1 1 10rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--kort-bg);
+    border: 1px solid var(--kant);
+    border-radius: var(--rundning);
+}
+
+.siffror strong {
+    display: block;
+    font-size: 2rem;
+    color: var(--accent);
+}
