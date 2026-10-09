@@ -117,8 +117,22 @@ button:focus-visible {
 }
 }
 
-/* CSS för heron */
+/* CSS för heron /Johan */
 
 .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)), url("images\hero.jpg")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)), url("/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--hero-text);
+    text-align: center;
+    padding: 50px, 24px;
+    border-radius: var(--rundning);
+    margin-top: 24px;
+}
+.hero h1{
+    font-weight: 800;
+}
+.hero p{
+    max-width: 38rem;
+    margin-inline: auto;
 }
