@@ -196,4 +196,17 @@ button:focus-visible {
     text-decoration: none;
 }
 
-
+/* Css kod för flexboxen ( delen med samarbetspartners ) / Norali */
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.partner {
+  flex: 1 1 15rem;
+  text-align: center;
+}
+.partner img {
+  max-width: 160px;
+  margin: 0 auto 0.5rem;
+}
