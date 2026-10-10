@@ -1,63 +1,183 @@
+<!-- Ändrade på division lite...-->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Division 2 - Massive Entertaintment</title>
-<!-- Länkar css och pico css / Zelal-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <title>The Division 2 - Massive Entertainment</title>
+
+    <meta name="description" content="Läs om Ghost Recon Breakpoint, ett actionspel med en stor ö att utforska.">
+
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
-<!-- Skrivit bodyn / Zelal-->
 <body>
- <header class="container">
-        <nav>
-            <a href="index.html">Massive Entertainment</a>
-            <a href="index.html">Startsida</a>
+    <!-- Meny / Zelal-->
+    <a class="skip-link" href="#innehåll">Hoppa till innehållet</a>
+
+    <header>
+        <nav class="navbar navbar-expand-md sticky-top site-nav">
+            <div class="container">
+
+                <a class="navbar-brand logga d-flex align-items-center gap-2" href="index.html">
+                    <img src="images/Massiveentertainmentlogo.jpg" 
+                    alt=""
+                    width="60"
+                    height="60">
+                    Massive Entertainment
+                </a>
+
+                <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#huvudmeny"
+                aria-controls="huvudmeny"
+                aria-expanded="false"
+                aria-label="Visa eller dölj menyn">
+
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="huvudmeny">
+                    <ul class="navbar-nav meny ms-auto align-items-md-center gap-2">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Startsida</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                            href="#"
+                            role="button"
+                            data-bs-target="dropdown"
+                            aria-expanded="false">
+                            Spel
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="March-of-giants.html">
+                                    March of Giants
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Splinter-cell.html">
+                                    Splinter Cell
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item active" 
+                                aria-current="page"
+                                href="Ghost-recon.html">
+                                Ghost Recon Breakpoint
+                            </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Thedivision2.html">
+                                    The Division 2
+                                </a>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabell.html">Spelbibliotek</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt och hitta oss</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
         </nav>
     </header>
 
-    <main id="innehåll" class="container">
+    <!-- Huvudinnehåll / Zelal -->
+    <main id="innehåll" class="container ps-4">
+
         <h1>The Division 2</h1>
 
-        <img 
-        class="spel-banner" 
+        <img class="spel-banner img-fluid" 
         src="images/the-division-2.svg" 
-        alt="Bild som representerar The Devision 2">
+        alt="Bild som representerar The Division 2">
 
-        <div class="spel-layout">
+        <div class="spel-layout mt-4">
+
             <section>
+
                 <h2>Om spelet</h2>
+
                 <p>
-                    The Division 2 är ett actionspel som utspelar sig
-                    i Washington D.C. efter en stor katastrof.
+                    The Division 2 är ett actionspel som utspelar sig i Washington D.C. efter att en farlig pandemi har drabbat världen. Staden är i kaos och du spelar som en agent som försöker återställa ordningen.
                 </p>
 
-                <h2>Spelfunktioner</h2>
+                <p>
+                    Spelet är utvecklar av Massive Entertaiment. Du kan spela ensam eller samarbeta med andra spelare för att klara uppdrag och bekämpa fiender.
+                </p>
+
+                <h3>Funktioner</h3>
+
                 <ul>
-                    <li>Utforska en öppen värld.</li>
-                    <li>Slåss mot fiender.</li>
-                    <li>Spela tillsammans med andra.</li>
+                    <li>Utforska en stor öppen värld i Washington D.C.</li>
+                    <li>Spela ensam eller tillsammans med vänner.</li>
+                    <li>Samla utrustning och förbättra din karaktär.</li>
+                    <li>Utför uppdrag och kämpa mot olika fiender.</li>
                 </ul>
             </section>
 
-            <aside>
-                <h2>Fakta om spelet</h2>
-                <ul class="fakta">
-                    <li><strong>Genre:</strong> Action</li>
-                    <li><strong>Utvecklare:</strong> Ubisoft Massive</li>
-                    <li><strong>Miljö:</strong> Washington D.C.</li>
+            <aside aria-labelledby="fakta-rubrik">
 
+                <h2 id="fakta-rubrik">Fakta</h2>
+
+                <ul class="fakta">
+                    <li><strong>Genre:</strong> Action och rollspel</li>
+                    <li><strong>Plattformar:</strong> PC, PlayStation, Xbox</li>
+                    <li><strong>Släpptes:</strong> 15 mars 2019</li>
+                    <li><strong>Utvecklare:</strong> Massive Entertainment</li>
+                    <li><strong>Miljö:</strong> Washington D.C.</li>
                 </ul>
+
             </aside>
         </div>
 
-        <a href="index.html">Tillbaka till startsidan</a>
+        <p>
+            <a href="index.html#galleri" class="btn btn-primary kop-knapp">
+                ← Tillbaka till alla spel
+            </a>
+        </p>
+
     </main>
 
-    <footer class="container sidfot">
-        <p>Massive Entertainment · Malmö</p>
-    </footer>
+    <!-- Footer / Zelal -->
+    <footer class="sidfot">
+        <div class="container">
 
+            <p><strong>Massive Entertainment</strong> · Malmö</p>
+
+            <p>
+                <a href="mailto:area0@massive.example">
+                    area0@massive.example
+                </a>
+            </p>
+
+            <p>
+                <small>
+                    Skolprojekt av grupp Area0 i kursen Java 26. Inte en officiell sida från Massive Entertainment eller Ubisoft. Speltitlarna tillhör sina respektive ägare.
+                </small>
+            </p>
+
+        </div>
+
+    </footer>
 </body>
 </html>
