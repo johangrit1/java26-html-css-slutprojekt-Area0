@@ -246,3 +246,17 @@ button:focus-visible {
     }
 }
 
+/* Responsivt galleri /Alexander */
+@media (min-width: 768px) { /* Surfplatta: 2 spelkort i bredd /Alexander */
+    .galleri {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop: 4 spelkort i bredd /Alexander */
+@media (min-width: 992px) { 
+    .galleri {
+        grid-template-columns: repeat (4, 1fr);
+    }
+}
+
