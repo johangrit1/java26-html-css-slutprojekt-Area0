@@ -1,0 +1,184 @@
+<!-- Jag har kopierat från ghost html, ändrat bara så att de stämmer in till march / Zelal-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>March of Giants - Massive Entertainment</title>
+
+    <meta name="description" content="Läs om March of Giants, ett MOBA-spel där två möts i strid.">
+
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <!-- Meny / Zelal-->
+    <a class="skip-link" href="#innehåll">Hoppa till innehållet</a>
+
+    <header>
+        <nav class="navbar navbar-expand-md sticky-top site-nav">
+            <div class="container">
+
+                <a class="navbar-brand logga d-flex align-items-center gap-2" href="index.html">
+                    <img src="images/Massiveentertainmentlogo.jpg" 
+                    alt=""
+                    width="60"
+                    height="60">
+                    Massive Entertainment
+                </a>
+
+                <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#huvudmeny"
+                aria-controls="huvudmeny"
+                aria-expanded="false"
+                aria-label="Visa eller dölj menyn">
+
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="huvudmeny">
+                    <ul class="navbar-nav meny ms-auto align-items-md-center gap-2">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Startsida</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                            href="#"
+                            role="button"
+                            data-bs-target="dropdown"
+                            aria-expanded="false">
+                            Spel
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="March-of-giants.html">
+                                    March of Giants
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Splinter-cell.html">
+                                    Splinter Cell
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item active" 
+                                aria-current="page"
+                                href="Ghost-recon.html">
+                                Ghost Recon Breakpoint
+                            </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Thedivision2.html">
+                                    The Division 2
+                                </a>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabell.html">Spelbibliotek</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt och hitta oss</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Huvudinnehåll / Zelal -->
+    <main id="innehåll" class="container">
+
+        <h1>March of Giants</h1>
+
+        <img class="spel-banner" 
+        src="images/march-of-giants.svg" 
+        alt="Illustration för March of Giants"
+        width="1280"
+        height="720">
+
+        <div class="spel-layout">
+
+            <section aria-labelledby="om-spelet">
+
+                <h2 id="om-spelet">Om spelet</h2>
+
+                <p>
+                    March of Giants är ett MOBA-spel där två lag med fyra spelare i varje lag möts i strid. Spelarna styr mäktiga jättar och måste samarbeta för att vinna.
+                </p>
+
+                <p>
+                    Spelet utspelar sig i en stad där lagen kämpar mot varandra och använder olika förmågor och strategier för att besegra motståndarna.
+                </p>
+
+                <h3>Funktioner</h3>
+
+                <ul>
+                    <li>Två lag med fyra spelare i varje lag.</li>
+                    <li>Jättar med olika förmågor.</li>
+                    <li>Samarbete och strategi.</li>
+                    <li>Strider i en stadsmiljö.</li>
+                </ul>
+            </section>
+
+            <aside aria-labelledby="fakta-rubrik">
+
+                <h2 id="fakta-rubrik">Fakta</h2>
+
+                <ul class="fakta">
+                    <li><strong>Genre:</strong>MOBA, strategi</li>
+                    <li><strong>Plattformar:</strong> PC</li>
+                    <li><strong>Speltyp:</strong> Lagbaserat</li>
+                    <li><strong>Utvecklare:</strong>Ubisoft</li>
+                </ul>
+
+            </aside>
+        </div>
+
+        <p>
+            <a href="index.html#galleri" class="btn btn-primary kop-knapp">
+                ← Tillbaka till alla spel
+            </a>
+        </p>
+
+    </main>
+
+    <!-- Footer / Zelal -->
+    <footer class="sidfot">
+        <div class="container">
+
+            <p><strong>Massive Entertainment</strong> · Malmö</p>
+
+            <p>
+                <a href="mailto:area0@massive.example">
+                    area0@massive.example
+                </a>
+            </p>
+
+            <p>
+                <small>
+                    Skolprojekt av grupp Area0 i kursen Java 26. Inte en officiell sida från Massive Entertainment eller Ubisoft. Speltitlarna tillhör sina respektive ägare.
+                </small>
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>
