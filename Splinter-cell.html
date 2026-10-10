@@ -1,0 +1,185 @@
+<!-- Jag har kopierat från ghost html, ändrat bara så att de stämmer in till splinter / Zelal-->
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splinter Cell: Blacklist - Massive Entertainment</title>
+
+    <meta name="description" content="Läs om Splinter Cell: Blacklist, ett actiospel med fokus på smygande.">
+
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <!-- Meny / Zelal-->
+    <a class="skip-link" href="#innehåll">Hoppa till innehållet</a>
+
+    <header>
+        <nav class="navbar navbar-expand-md sticky-top site-nav">
+            <div class="container">
+
+                <a class="navbar-brand logga d-flex align-items-center gap-2" href="index.html">
+                    <img src="images/Massiveentertainmentlogo.jpg" 
+                    alt=""
+                    width="60"
+                    height="60">
+                    Massive Entertainment
+                </a>
+
+                <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#huvudmeny"
+                aria-controls="huvudmeny"
+                aria-expanded="false"
+                aria-label="Visa eller dölj menyn">
+
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="huvudmeny">
+                    <ul class="navbar-nav meny ms-auto align-items-md-center gap-2">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Startsida</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                            href="#"
+                            role="button"
+                            data-bs-target="dropdown"
+                            aria-expanded="false">
+                            Spel
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="March-of-giants.html">
+                                    March of Giants
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Splinter-cell.html">
+                                    Splinter Cell
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item active" 
+                                aria-current="page"
+                                href="Ghost-recon.html">
+                                Ghost Recon Breakpoint
+                            </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="Thedivision2.html">
+                                    The Division 2
+                                </a>
+                            </li>
+
+                        </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tabell.html">Spelbibliotek</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt och hitta oss</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Huvudinnehåll / Zelal -->
+    <main id="innehåll" class="container">
+
+        <h1>Splinter Cell: Blacklist</h1>
+
+        <img class="spel-banner" 
+        src="images/splinter-cell.svg" 
+        alt="Illustration för Splinter Cell: Blacklist"
+        width="1280"
+        height="720">
+
+        <div class="spel-layout">
+
+            <section aria-labelledby="om-spelet">
+
+                <h2 id="om-spelet">Om spelet</h2>
+
+                <p>
+                    I Splinter Cell: Blacklist spelar du agenten Sam Fisher. Han måste stoppa en grupp som planerar attacker mot olika mål runt om i världen.
+                </p>
+
+                <p>
+                    Du behöver använda smygande, taktik och olika verktyg för att klara uppdragen. Du kan välja att ta dig fram tyst eller möta fienderna direkt.
+                </p>
+
+                <h3>Funktioner</h3>
+
+                <ul>
+                    <li>Smyg förbi fiender utan att bli upptäckt.</li>
+                    <li>Använd olika verktyg och utrustning.</li>
+                    <li>Välj mellan smygande och direkt strid.</li>
+                    <li>Utför uppdrag på olika platser i världen.</li>
+                </ul>
+            </section>
+
+            <aside aria-labelledby="fakta-rubrik">
+
+                <h2 id="fakta-rubrik">Fakta</h2>
+
+                <ul class="fakta"></ul>
+                    <li><strong>Genre:</strong> Action, stealth</li>
+                    <li><strong>Plattformar:</strong> PC, PlayStation, Xbox, Wii U</li>
+                    <li><strong>Släpptes:</strong> 20 augusti 2013</li>
+                    <li><strong>Huvudperson:</strong> Sam Fisher</li>
+                </ul>
+
+            </aside>
+        </div>
+
+        <p>
+            <a href="index.html#galleri" class="btn btn-primary kop-knapp">
+                ← Tillbaka till alla spel
+            </a>
+        </p>
+
+    </main>
+
+    <!-- Footer / Zelal -->
+    <footer class="sidfot">
+        <div class="container">
+
+            <p><strong>Massive Entertainment</strong> · Malmö</p>
+
+            <p>
+                <a href="mailto:area0@massive.example">
+                    area0@massive.example
+                </a>
+            </p>
+
+            <p>
+                <small>
+                    Skolprojekt av grupp Area0 i kursen Java 26. Inte en officiell sida från Massive Entertainment eller Ubisoft. Speltitlarna tillhör sina respektive ägare.
+                </small>
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+</html>
