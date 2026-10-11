@@ -25,8 +25,8 @@
         --bs-secondary-color: rgb(212, 198, 198);
         --bs-border-color-translucent: rgb(110, 110, 110);
         --bs-tertiary-bg: rgb(26, 26, 48);
-        --bs-link-color-rbg: 77, 191, 255;
-        --bs-link-hover-color-rbg: 128, 209, 255;
+        --bs-link-color-rgb: 77, 191, 255;
+        --bs-link-hover-color-rgb: 128, 209, 255;
     }
 }
 
@@ -97,7 +97,7 @@ button:focus-visible {
 
 /* Stil för nav-länkar /Alexander */
 .site-nav .nav-link {
-    padding-block: 0.75;
+    padding-block: 0.75rem;
 }
 
 /* Anpassningar för surfplatta/desktop /Alexander */
@@ -125,7 +125,7 @@ button:focus-visible {
     background-position: center;
     color: var(--hero-text);
     text-align: center;
-    padding: 50px, 24px;
+    padding: 50px 24px;
     border-radius: var(--rundning);
     margin-top: 24px;
 }
@@ -256,7 +256,7 @@ button:focus-visible {
 /* Desktop: 4 spelkort i bredd /Alexander */
 @media (min-width: 992px) { 
     .galleri {
-        grid-template-columns: repeat (4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -333,7 +333,7 @@ button:focus-visible {
 /* Stänger av animationer och övergångar om besökaren har valt att minska rörelse i sina inställningar / Zelal */
 @media (prefers-reduced-motion: reduce) {
     *,
-    *::before
+    *::before,
     *::after {
         animation: none !important;
         transition: none !important;
