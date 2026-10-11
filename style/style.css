@@ -302,3 +302,30 @@ button:focus-visible {
 .medlem p {
   margin-bottom: 0.25rem;
 }
+
+/* Aktiva navigeringslinkar /Alexander */
+.site-nav .nav-link.active, 
+.site-nav .dropdown-item.active {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.site-nav .nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.site-nav .dropdown-item.active {
+    background-color: transparent;
+}
+
+/* Hover och fokus effekter på spelkort /Alexander */
+.spelkort {
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.spelkort:hover,
+.spelkort:focus-within {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px var(--kort-skugga);
+}
