@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt – Massive Entertainment</title>
+  <meta name="description" content="Kontaktsida för grupp Area0: Alexander, Johan, Zelal och Norali.">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+  <a class="hoppa-lank" href="#innehall">Hoppa till innehållet</a>
+
+  <header>
+    <nav class="navbar navbar-expand-md sticky-top site-nav" aria-label="Huvudmeny">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <img src="images/logo.svg" alt="" width="32" height="32"> Massive Entertainment
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#huvudmeny" aria-controls="huvudmeny" aria-expanded="false" aria-label="Visa eller dölj menyn">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="huvudmeny">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Startsida</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spel</a>
+              <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="the-division-2.html">The Division 2</a></li>
+              <li><a class="dropdown-item" href="march-of-giants.html">March of Giants</a></li>
+              <li><a class="dropdown-item" href="ghost-recon.html">Ghost Recon Breakpoint</a></li>
+              <li><a class="dropdown-item" href="splinter-cell.html">Splinter Cell: Blacklist</a></li>
+              </ul>
+            </li>
+          <li class="nav-item"><a class="nav-link" href="tabell.html">Spelbibliotek</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="innehall" class="container py-4">
+    <h1>Kontakta oss</h1>
+    <p class="lead">Den här sidan är gjord av grupp Area0. Här är vi som byggt den.</p>
+
+    <section aria-labelledby="team-rubrik">
+      <h2 id="team-rubrik">Gruppen Area0</h2>
+      <div class="medlemmar">
+        <article class="card medlem">
+          <div class="card-body">
+            <span class="initialer" aria-hidden="true">AL</span>
+            <h3 class="h5">Alexander</h3>
+            <p class="text-body-secondary">Meny och galleri</p>
+            <p><a href="mailto:alexander@massive.example">alexander@massive.example</a></p>
+          </div>
+        </article>
+        <article class="card medlem">
+          <div class="card-body">
+            <span class="initialer" aria-hidden="true">JO</span>
+            <h3 class="h5">Johan</h3>
+            <p class="text-body-secondary">Projektledare, färger och hero</p>
+            <p><a href="mailto:johan@massive.example">johan@massive.example</a></p>
+          </div>
+        </article>
+        <article class="card medlem">
+          <div class="card-body">
+            <span class="initialer" aria-hidden="true">ZE</span>
+            <h3 class="h5">Zelal</h3>
+            <p class="text-body-secondary">Spelsidor och tillgänglighet</p>
+            <p><a href="mailto:zelal@massive.example">zelal@massive.example</a></p>
+          </div>
+        </article>
+        <article class="card medlem">
+          <div class="card-body">
+            <span class="initialer" aria-hidden="true">NO</span>
+            <h3 class="h5">Norali</h3>
+            <p class="text-body-secondary">Tabell, partners och kontakt</p>
+            <p><a href="mailto:norali@massive.example">norali@massive.example</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="hitta-rubrik">
+      <h2 id="hitta-rubrik">Hitta oss</h2>
+      <p>Massive Entertainment har sitt kontor i Malmö. Vi i gruppen går på Grit Academy.</p>
+    </section>
+
+    <section aria-labelledby="form-rubrik">
+      <h2 id="form-rubrik">Skicka ett meddelande</h2>
+      <!-- Meddelandet skickas inte på riktigt, det är bara för att visa hur det ser ut / Norali -->
+      <form>
+        <div class="mb-3">
+          <label class="form-label" for="namn">Namn</label>
+          <input class="form-control" type="text" id="namn" name="namn" autocomplete="name" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="epost">E-post</label>
+          <input class="form-control" type="email" id="epost" name="epost" autocomplete="email" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="meddelande">Meddelande</label>
+          <textarea class="form-control" id="meddelande" name="meddelande" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Skicka</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="sidfot">
+    <div class="container">
+      <p><strong>Massive Entertainment</strong> · Malmö</p>
+      <p><a href="mailto:area0@massive.example">area0@massive.example</a></p>
+      <p><small>Skolprojekt av grupp Area0 i kursen Java26. Inte en officiell sida från Massive Entertainment eller Ubisoft. Speltitlarna tillhör Ubisoft.</small></p>
+    </div>
+  </footer>
+</body>
+</html>
