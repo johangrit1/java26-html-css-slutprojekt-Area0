@@ -329,3 +329,13 @@ button:focus-visible {
     transform: translateY(-6px);
     box-shadow: 0 10px 24px var(--kort-skugga);
 }
+
+/* Stänger av animationer och övergångar om besökaren har valt att minska rörelse i sina inställningar / Zelal */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
