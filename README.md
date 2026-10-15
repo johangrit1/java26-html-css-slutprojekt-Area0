@@ -5,7 +5,7 @@ Html och css-filerna är fyllda med kommentarer från alla i gruppen om vad vi v
 ## Länkar
 
 ## Repo: https://github.com/johangrit1/java26-html-css-slutprojekt-Area0
-## github pages: 
+## github pages: https://johangrit1.github.io/java26-html-css-slutprojekt-Area0/
 
 
 
