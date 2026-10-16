@@ -6,7 +6,8 @@ Html och css-filerna är fyllda med kommentarer från alla i gruppen om vad vi v
 
 ## Repo: https://github.com/johangrit1/java26-html-css-slutprojekt-Area0
 ## github pages: https://johangrit1.github.io/java26-html-css-slutprojekt-Area0/
-
+## Skiss: ![description](images\Skiss.jpg)
+## Skiss 2: ![description](images\Skiss-2.jpg)
 
 
 
