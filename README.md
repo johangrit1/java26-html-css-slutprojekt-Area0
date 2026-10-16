@@ -9,6 +9,7 @@ Html och css-filerna är fyllda med kommentarer från alla i gruppen om vad vi v
 
 
 
+
 ## Gruppen och våra ansvar
 | Namn | Ansvar |
 | Johan | Repo och GitHub Pages, grundstruktur, färger och mörkt läge, hero (huvudrubrik), animationer, README |
